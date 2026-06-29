@@ -1,0 +1,83 @@
+# Career-Ops Profile Configuration — Boubacar Boulkassoum
+# Généré automatiquement — personnalisable à tout moment
+
+candidate:
+  full_name: "Boubacar Boulkassoum"
+  email: "boubacarboulkassoum5@gmail.com"
+  phone: "07 46 51 61 32"
+  location: "Vélizy-Villacoublay (78), Île-de-France"
+  linkedin: "https://www.linkedin.com/in/boubacar-boulkassoum-systeme-embarque-ile-de-france/"
+  portfolio_url: ""
+  github: "https://github.com/DuzakhNX"
+  photo: ""
+
+target_roles:
+  # Postes visés — contrat d'apprentissage ou de professionnalisation
+  primary:
+    - "Ingénieur Systèmes Embarqués (Alternance)"
+    - "Développeur Firmware C/C++ (Alternance)"
+    - "Développeur IoT / Embarqué (Alternance)"
+    - "Software Engineer Embarqué (Alternance)"
+  contract_types:
+    - "Contrat d'apprentissage"
+    - "Contrat de professionnalisation"
+  archetypes:
+    - name: "Ingénieur Systèmes Embarqués"
+      level: "Junior / Alternant"
+      fit: "primary"
+    - name: "Développeur Firmware C/C++"
+      level: "Junior / Alternant"
+      fit: "primary"
+    - name: "Développeur IoT / Connected Devices"
+      level: "Junior / Alternant"
+      fit: "secondary"
+    - name: "Développeur Logiciel Embarqué"
+      level: "Junior / Alternant"
+      fit: "secondary"
+    - name: "Ingénieur Validation / Tests Embarqués"
+      level: "Junior / Alternant"
+      fit: "adjacent"
+
+narrative:
+  headline: "Élève ingénieur systèmes embarqués — C/C++, STM32, FreeRTOS, protocoles comm."
+  exit_story: "Diplômé EPITECH (Bachelor Ingénierie Logicielle 2022-2025), entrant en cycle ingénieur ECE Paris spécialité Systèmes Embarqués (2026-2029). Disponible immédiatement pour alternance."
+  superpowers:
+    - "Développement firmware C/C++ sur microcontrôleurs STM32"
+    - "Maîtrise des protocoles de communication embarqués (UART, I2C, SPI, CAN)"
+    - "Implémentation d'architectures multitâches FreeRTOS"
+    - "Expérience full-stack complémentaire (backend API, frontend Vue.js)"
+    - "Vainqueur 228 Code Challenge C++ — résolution de problèmes sous pression"
+  proof_points:
+    - name: "Station Météo STM32 Multi-Capteurs"
+      hero_metric: "Acquisition temps réel ADC+DMA 100 éch./s, intégration SPI/I2C (BMP280, DHT22)"
+    - name: "Filtre de Kalman pour IMU"
+      hero_metric: "Divergence < 5°/5 min, latence 15 ms @ 100 Hz sur MPU6050"
+    - name: "Architecture Multitâche FreeRTOS"
+      hero_metric: "4 tâches, PWM 16 kHz BLDC, CAN bus 500 kbps"
+    - name: "API Backend Ekanwe (NukonYiYi)"
+      hero_metric: "Backend from scratch, application mobile publiée sur l'App Store"
+
+compensation:
+  target_range: "Grille légale alternance (% SMIC selon âge/niveau)"
+  currency: "EUR"
+  minimum: "Grille légale"
+  location_flexibility: "Île-de-France — présentiel ou hybride"
+
+location:
+  country: "France"
+  city: "Vélizy-Villacoublay"
+  region: "Île-de-France"
+  timezone: "CET"
+  visa_status: "Pas de besoin de visa"
+  mobility: "Permis B — mobilité Île-de-France"
+  available_from: "Immédiatement"
+
+language:
+  modes_dir: "modes/fr"
+
+cv:
+  output_format: "html"
+
+cover_letter:
+  notice_period_days: 0
+  primary_domain: "systèmes embarqués / ingénierie logicielle"
