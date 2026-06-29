@@ -432,6 +432,72 @@ search_queries:
     query: 'site:linkedin.com/jobs "Software Engineer" OR "Backend Engineer" OR "Frontend Engineer" Turkey OR Türkiye OR Ankara OR Istanbul'
     enabled: false
 
+# -- Portails français — Systèmes embarqués alternance IDF --
+
+  - name: HelloWork — Embarqué alternance IDF
+    query: 'site:hellowork.com "systèmes embarqués" OR "embarqué" OR "firmware" OR "STM32" alternance "Île-de-France" OR "Paris" OR "Versailles" OR "Massy" OR "Saclay"'
+    enabled: true
+
+  - name: HelloWork — C/C++ alternance IDF
+    query: 'site:hellowork.com "C++" OR "C embarqué" OR "microcontrôleur" OR "RTOS" alternance "Île-de-France" OR "Paris" OR "78" OR "91" OR "92"'
+    enabled: true
+
+  - name: Meteojob — Embarqué alternance IDF
+    query: 'site:meteojob.com "systèmes embarqués" OR "embarqué" OR "firmware" OR "STM32" alternance "Île-de-France" OR "Paris"'
+    enabled: true
+
+  - name: Meteojob — Développeur C/C++ alternance IDF
+    query: 'site:meteojob.com "C++" OR "firmware" OR "microcontrôleur" OR "IoT embarqué" alternance "Île-de-France" OR "Paris" OR "Vélizy" OR "Massy"'
+    enabled: true
+
+  - name: Indeed — Embarqué alternance IDF
+    query: 'site:fr.indeed.com "ingénieur systèmes embarqués" OR "développeur embarqué" OR "firmware" alternance "Île-de-France" OR "Paris"'
+    enabled: true
+
+  - name: Indeed — C/C++ STM32 alternance IDF
+    query: 'site:fr.indeed.com "C++" OR "STM32" OR "microcontrôleur" OR "FreeRTOS" alternance "Île-de-France" OR "Paris" OR "78" OR "91" OR "92"'
+    enabled: true
+
+  - name: Welcome to the Jungle — Embarqué alternance IDF
+    query: 'site:welcometothejungle.com "systèmes embarqués" OR "embarqué" OR "firmware" OR "STM32" alternance "Île-de-France" OR "Paris"'
+    enabled: true
+
+  - name: Welcome to the Jungle — IoT C/C++ alternance IDF
+    query: 'site:welcometothejungle.com "C++" OR "IoT" OR "microcontrôleur" OR "RTOS" OR "firmware" alternance Paris OR "Île-de-France"'
+    enabled: true
+
+  - name: Jooble — Embarqué alternance IDF
+    query: 'site:fr.jooble.org "systèmes embarqués" OR "embarqué" OR "firmware" OR "STM32" alternance "Île-de-France" OR "Paris"'
+    enabled: true
+
+  - name: Jooble — Développeur C/C++ alternance IDF
+    query: 'site:fr.jooble.org "C++" OR "firmware" OR "microcontrôleur" OR "FreeRTOS" alternance Paris OR "Île-de-France"'
+    enabled: true
+
+  - name: Monster — Embarqué alternance IDF
+    query: 'site:monster.fr "systèmes embarqués" OR "embarqué" OR "firmware" OR "STM32" alternance "Île-de-France" OR "Paris"'
+    enabled: true
+
+  - name: Monster — Développeur C/C++ alternance IDF
+    query: 'site:monster.fr "C++" OR "firmware" OR "microcontrôleur" OR "RTOS" alternance Paris OR "Île-de-France"'
+    enabled: true
+
+  - name: Keljob — Embarqué alternance IDF
+    query: 'site:keljob.com "systèmes embarqués" OR "embarqué" OR "firmware" OR "STM32" alternance "Île-de-France" OR "Paris"'
+    enabled: true
+
+  - name: Keljob — C/C++ IoT alternance IDF
+    query: 'site:keljob.com "C++" OR "IoT" OR "microcontrôleur" OR "firmware" alternance Paris OR "Île-de-France" OR "78" OR "91" OR "92"'
+    enabled: true
+
+  - name: LeBonCoin — Embarqué alternance IDF
+    query: 'site:leboncoin.fr "systèmes embarqués" OR "embarqué" OR "firmware" alternance "Île-de-France" OR "Paris"'
+    enabled: true
+
+  - name: LeBonCoin — Développeur C/C++ alternance IDF
+    query: 'site:leboncoin.fr "C++" OR "microcontrôleur" OR "STM32" OR "firmware" alternance Paris OR "Île-de-France"'
+    enabled: true
+
 # -- Tracked companies --
 # Companies whose career pages are checked directly.
 # scan_method: playwright (default), websearch, local_parser
